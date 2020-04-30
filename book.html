@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 
+	the page provides information to the browser and search engine
+	to encode characters in accordance with UTF-8 provisions 
+	-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- 
+	The meta viewport tag will give instructions to the browser 
+	to set the dimensions and scale of the web 
+	-->
+
+	<title>Book - Jineng Bali</title>
+	<link rel="icon" href="images/logojineng.jpg">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
+	<script src="js/mobile.js"></script>
+</head>
+<body>
+	<div id="header">
+		<a href="index.html" class="logo">
+			<img src="images/logojineng.jpg" alt="">
+		</a>
+		<ul id="navigation">
+			<li>
+				<a href="index.html">home</a>
+			</li>
+			<li>
+				<a href="about.html">about</a>
+			</li>
+			<li>
+				<a href="food.html">foods</a>
+			</li>
+			<li>
+				<a href="drink.html">drinks</a>
+			</li>
+			<li class="selected">
+				<a href="book.html">book jineng</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<h1><span>Book Jineng</span></h1>
+		<form action="book.html">
+			<input type="text" name="bookname" id="bookname" value="Name">
+			<input type="text" name="person" id="person" value="1-8 Person">
+			<input type="text" name="phone" id="phone" value="Phone Number">
+			<textarea name="message" id="message">Request</textarea>
+			<input type="submit" name="send" id="send" value="Send">
+		</form>
+	</div>
+	<div id="footer">
+		<div>
+			<p>&copy; 2020 by Jineng Bali</p>
+			<ul>
+				<li>
+					<a href="https://www.twitter.com" id="twitter">twitter</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com" id="facebook">facebook</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com" id="instagram">instagram</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
